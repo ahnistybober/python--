@@ -1,0 +1,2710 @@
+{
+  "source": "Plantfolio / Luminoid, 2026",
+  "source_url": "https://github.com/Luminoid/plantfolio-common-plants",
+  "license": "CC BY-NC-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "license_text": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)\n\nCopyright (c) 2026 Luminoid\n\nYou are free to:\n  Share — copy and redistribute the material in any medium or format\n  Adapt — remix, transform, and build upon the material\n\nUnder the following terms:\n  Attribution — You must give appropriate credit, provide a link to the\n  license, and indicate if changes were made.\n\n  NonCommercial — You may not use the material for commercial purposes.\n\n  ShareAlike — If you remix, transform, or build upon the material, you must\n  distribute your contributions under the same license as the original.\n\nNo additional restrictions — You may not apply legal terms or technological\nmeasures that legally restrict others from doing anything the license permits.\n\nFull license text: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode\n\n----\n\nNote on the plant data (source/*.json, dist/*.json)\n\nThe descriptions, care tips, watering intervals, and light/humidity/temperature\npreferences are original editorial content and are covered by the license above,\nas are the schema, the category system, and the translations. Scientific names\nfollow the accepted names in Plants of the World Online (POWO, Royal Botanic\nGardens, Kew), toxicity classifications are aligned with the ASPCA toxic and\nnon-toxic plant lists, and hardiness zones follow the USDA scale; those sources\nare cited, not reproduced. Individual facts (a species name, a hardiness zone)\nare not themselves copyrightable; the license applies to this particular curated\ncompilation and its presentation.\n\nThe dataset is provided for general information only and is not a substitute\nfor professional horticultural, botanical, or veterinary advice.\n",
+  "changes": "Комнатные растения, русские названия, типовые смеси грунта и сроки пересадки.",
+  "plants": [
+    {
+      "name": "Аглаонема",
+      "species": "Aglaonema commutatum",
+      "plant_type": "Обычное",
+      "lighting": "Полутень",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Аглаонема · Pink Star",
+      "species": "Aglaonema 'Pink Star'",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Аглаонема · Red Valentine",
+      "species": "Aglaonema 'Red Valentine'",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Аглаонема · Sparkling Sarah",
+      "species": "Aglaonema 'Sparkling Sarah'",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Полисциас · Ming Aralia",
+      "species": "Polyscias fruticosa",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Аспидистра · Variegated Cast Iron",
+      "species": "Aspidistra elatior 'Variegata'",
+      "plant_type": "Обычное",
+      "lighting": "Полутень",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Аспидистра",
+      "species": "Aspidistra elatior",
+      "plant_type": "Обычное",
+      "lighting": "Полутень",
+      "watering_days": 14,
+      "repotting_days": 2190,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Драцена душистая",
+      "species": "Dracaena fragrans 'Massangeana'",
+      "plant_type": "Обычное",
+      "lighting": "Полутень",
+      "watering_days": 14,
+      "repotting_days": 913,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Драцена · Goldieana",
+      "species": "Dracaena goldieana",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Драцена · Limelight",
+      "species": "Dracaena fragrans 'Limelight'",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Драцена окаймленная",
+      "species": "Dracaena reflexa var. angustifolia",
+      "plant_type": "Обычное",
+      "lighting": "Полутень",
+      "watering_days": 14,
+      "repotting_days": 913,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Драцена · Song of India",
+      "species": "Dracaena reflexa 'Song of India'",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Драцена · Warneckii",
+      "species": "Dracaena fragrans 'Warneckei'",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Дизиготека · False Aralia",
+      "species": "Plerandra elegantissima",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Спатифиллум · Peace Lily Sensation",
+      "species": "Spathiphyllum 'Sensation'",
+      "plant_type": "Обычное",
+      "lighting": "Полутень",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Пеперомия · Ginny",
+      "species": "Peperomia clusiifolia 'Ginny'",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Филодендрон · Congo",
+      "species": "Philodendron 'Congo'",
+      "plant_type": "Обычное",
+      "lighting": "Полутень",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Пилея · Silver Sparkle",
+      "species": "Pilea 'Glauca'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Эпипремнум золотистый",
+      "species": "Epipremnum aureum",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Эпипремнум · Cebu Blue Pothos",
+      "species": "Epipremnum pinnatum 'Cebu Blue'",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Эпипремнум · Jade Pothos",
+      "species": "Epipremnum aureum 'Jade'",
+      "plant_type": "Обычное",
+      "lighting": "Полутень",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Сансевиерия цилиндрическая",
+      "species": "Dracaena angolensis",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 21,
+      "repotting_days": 730,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Сансевиерия Ханни",
+      "species": "Dracaena trifasciata 'Hahnii'",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 21,
+      "repotting_days": 730,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Сансевиерия Муншайн",
+      "species": "Dracaena trifasciata 'Moonshine'",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 21,
+      "repotting_days": 730,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Шеффлера · Schefflera (Umbrella Tree)",
+      "species": "Heptapleurum actinophyllum",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Шеффлера · Dwarf Schefflera",
+      "species": "Heptapleurum arboricola",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Эпипремнум · Shangri La Pothos",
+      "species": "Epipremnum aureum 'Shangri La'",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Сансевиерия — щучий хвост",
+      "species": "Dracaena trifasciata",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 21,
+      "repotting_days": 2738,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Спатифиллум · Domino Peace Lily",
+      "species": "Spathiphyllum 'Domino'",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Хлорофитум",
+      "species": "Chlorophytum comosum",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Юкка",
+      "species": "Yucca gigantea",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 21,
+      "repotting_days": 1460,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Замиокулькас",
+      "species": "Zamioculcas zamiifolia",
+      "plant_type": "Суккулент",
+      "lighting": "Полутень",
+      "watering_days": 21,
+      "repotting_days": 913,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Замиокулькас · ZZ Plant Raven",
+      "species": "Zamioculcas zamiifolia 'Raven'",
+      "plant_type": "Суккулент",
+      "lighting": "Полутень",
+      "watering_days": 21,
+      "repotting_days": 913,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Замиокулькас · ZZ Plant Zenzi",
+      "species": "Zamioculcas zamiifolia 'Zenzi'",
+      "plant_type": "Суккулент",
+      "lighting": "Полутень",
+      "watering_days": 21,
+      "repotting_days": 730,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Алоказия · Amazonica",
+      "species": "Alocasia × amazonica",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Алоказия · Black Velvet",
+      "species": "Alocasia reginula",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Алоказия · Cuprea",
+      "species": "Alocasia cuprea",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Алоказия · Dragon Scale",
+      "species": "Alocasia baginda 'Dragon Scale'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Алоказия · Frydek",
+      "species": "Alocasia micholitziana 'Frydek'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Алоказия · Maharani",
+      "species": "Alocasia maharani",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Алоказия · Polly",
+      "species": "Alocasia × amazonica 'Polly'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Алоказия · Silver Dragon",
+      "species": "Alocasia baginda 'Silver Dragon'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Алоказия · Stingray",
+      "species": "Alocasia macrorrhizos 'Stingray'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Алоказия · Zebrina",
+      "species": "Alocasia zebrina",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Алоказии (группа)",
+      "species": "Alocasia × amazonica 'Polly'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 365,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Антуриум · Bird's Nest",
+      "species": "Anthurium hookeri",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Антуриум · Velvet Cardboard",
+      "species": "Anthurium clarinervium",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Антуриум · Crystallinum",
+      "species": "Anthurium crystallinum",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Антуриум · Magnificum",
+      "species": "Anthurium magnificum",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Антуриум · Veitchii",
+      "species": "Anthurium veitchii",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Антуриум · Strap Leaved",
+      "species": "Anthurium vittarifolium",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Антуриум · Queen",
+      "species": "Anthurium warocqueanum",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Антуриумы (группа)",
+      "species": "Anthurium andraeanum",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Ароидные (группа)",
+      "species": "Monstera deliciosa",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Сингониум · Arrowhead Plant",
+      "species": "Syngonium podophyllum",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Филодендрон · Burle Marx",
+      "species": "Philodendron burle-marxii",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Каладиум",
+      "species": "Caladium bicolor",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Колоказия · / Taro",
+      "species": "Colocasia esculenta",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Диффенбахия",
+      "species": "Dieffenbachia seguine",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Диффенбахия · Compact Dumb Cane",
+      "species": "Dieffenbachia 'Compacta'",
+      "plant_type": "Тропическое",
+      "lighting": "Полутень",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Эпипремнум · Pinnatum Albo",
+      "species": "Epipremnum pinnatum 'Albo Variegatum'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Эпипремнум · Golden Pothos",
+      "species": "Epipremnum aureum 'Golden'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Эпипремнум · Marble Queen Pothos",
+      "species": "Epipremnum aureum 'Marble Queen'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Монстера Адансона",
+      "species": "Monstera adansonii",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Монстера · Albo",
+      "species": "Monstera deliciosa 'Albo Borsigiana'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Монстера · Aurea",
+      "species": "Monstera deliciosa 'Aurea'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Монстера · Esqueleto",
+      "species": "Monstera sp. 'Esqueleto'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Монстера · Lechleriana",
+      "species": "Monstera lechleriana",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Монстера · Peru",
+      "species": "Monstera sp. 'Peru'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Монстера · Siltepecana",
+      "species": "Monstera siltepecana",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Монстера · Standleyana",
+      "species": "Monstera standleyana",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Монстера · Thai Constellation",
+      "species": "Monstera deliciosa 'Thai Constellation'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Эпипремнум · Neon Pothos",
+      "species": "Epipremnum aureum 'Neon'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Филодендрон · Birkin",
+      "species": "Philodendron 'Birkin'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Филодендрон · Silver Leaf",
+      "species": "Philodendron brandtianum",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Филодендрон · Florida Ghost",
+      "species": "Philodendron 'Florida Ghost'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Филодендрон · Gloriosum",
+      "species": "Philodendron gloriosum",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Филодендрон · Heartleaf",
+      "species": "Philodendron hederaceum",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Филодендрон · Jose Buono",
+      "species": "Philodendron 'Jose Buono'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Филодендрон · Mamei",
+      "species": "Philodendron mamei",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Филодендрон · Melanochrysum",
+      "species": "Philodendron melanochrysum",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Филодендрон · Micans",
+      "species": "Philodendron hederaceum var. hederaceum",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Филодендрон · Pink Princess",
+      "species": "Philodendron erubescens 'Pink Princess'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Филодендрон · Plowmanii",
+      "species": "Philodendron plowmanii",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Филодендрон · Prince of Orange",
+      "species": "Philodendron 'Prince of Orange'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Филодендрон · Red Moon",
+      "species": "Philodendron 'Red Moon'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 548,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Филодендрон · Ring of Fire",
+      "species": "Philodendron 'Ring of Fire'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Тауматофиллум · Tree Philodendron",
+      "species": "Thaumatophyllum bipinnatifidum",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Филодендрон · Silver",
+      "species": "Philodendron hastatum",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Филодендрон · Verrucosum",
+      "species": "Philodendron verrucosum",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Филодендрон · White Variegated",
+      "species": "Philodendron 'White Knight'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Филодендрон · White Princess",
+      "species": "Philodendron 'White Princess'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Тауматофиллум · Philodendron Xanadu",
+      "species": "Thaumatophyllum xanadu",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Рафидофора · Mini Monstera",
+      "species": "Rhaphidophora tetrasperma",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Монстера деликатесная",
+      "species": "Monstera deliciosa",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Сингониум · Albo",
+      "species": "Syngonium podophyllum 'Albo Variegatum'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Сингониум · Pink",
+      "species": "Syngonium podophyllum 'Neon Robusta'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Сингониум · White Butterfly",
+      "species": "Syngonium podophyllum 'White Butterfly'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Лазающие ароидные (группа)",
+      "species": "Epipremnum aureum",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Ксантосома",
+      "species": "Xanthosoma sagittifolium",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 365,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Аспарагус · Fern",
+      "species": "Asparagus setaceus",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Рыхлый влагоемкий субстрат для папоротников / декоративно-лиственных с органической основой и перлитом; не заболачивать."
+    },
+    {
+      "name": "Асплениум · Bird's Nest Fern",
+      "species": "Asplenium nidus",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 5,
+      "repotting_days": 913,
+      "soil": "Рыхлый влагоемкий субстрат для папоротников / декоративно-лиственных с органической основой и перлитом; не заболачивать."
+    },
+    {
+      "name": "Блехнум · Dwarf Tree Fern",
+      "species": "Blechnum gibbum",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Рыхлый влагоемкий субстрат для папоротников / декоративно-лиственных с органической основой и перлитом; не заболачивать."
+    },
+    {
+      "name": "Нефролепис — бостонский папоротник",
+      "species": "Nephrolepis exaltata",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 548,
+      "soil": "Рыхлый влагоемкий субстрат для папоротников / декоративно-лиственных с органической основой и перлитом; не заболачивать."
+    },
+    {
+      "name": "Пеллея · Button Fern",
+      "species": "Pellaea rotundifolia",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 5,
+      "repotting_days": 548,
+      "soil": "Рыхлый влагоемкий субстрат для папоротников / декоративно-лиственных с органической основой и перлитом; не заболачивать."
+    },
+    {
+      "name": "Папоротники",
+      "species": "Nephrolepis exaltata",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 5,
+      "repotting_days": 548,
+      "soil": "Рыхлый влагоемкий субстрат для папоротников / декоративно-лиственных с органической основой и перлитом; не заболачивать."
+    },
+    {
+      "name": "Адиантум — венерин волос",
+      "species": "Adiantum raddianum",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 4,
+      "repotting_days": 548,
+      "soil": "Рыхлый влагоемкий субстрат для папоротников / декоративно-лиственных с органической основой и перлитом; не заболачивать."
+    },
+    {
+      "name": "Микросорум · Kangaroo Paw Fern",
+      "species": "Microsorum diversifolium",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Рыхлый влагоемкий субстрат для папоротников / декоративно-лиственных с органической основой и перлитом; не заболачивать."
+    },
+    {
+      "name": "Микросорум · Crocodile Fern",
+      "species": "Microsorum musifolium",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Рыхлый влагоемкий субстрат для папоротников / декоративно-лиственных с органической основой и перлитом; не заболачивать."
+    },
+    {
+      "name": "Нефролепис · Lemon Button Fern",
+      "species": "Nephrolepis cordifolia 'Duffii'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый влагоемкий субстрат для папоротников / декоративно-лиственных с органической основой и перлитом; не заболачивать."
+    },
+    {
+      "name": "Флебодиум · Blue Star Fern",
+      "species": "Phlebodium aureum",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый влагоемкий субстрат для папоротников / декоративно-лиственных с органической основой и перлитом; не заболачивать."
+    },
+    {
+      "name": "Птерис · Brake Fern",
+      "species": "Pteris cretica",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый влагоемкий субстрат для папоротников / декоративно-лиственных с органической основой и перлитом; не заболачивать."
+    },
+    {
+      "name": "Даваллия · Rabbit's Foot Fern",
+      "species": "Davallia fejeensis",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 5,
+      "repotting_days": 913,
+      "soil": "Рыхлый влагоемкий субстрат для папоротников / декоративно-лиственных с органической основой и перлитом; не заболачивать."
+    },
+    {
+      "name": "Платицериум · Staghorn Fern",
+      "species": "Platycerium bifurcatum",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 5,
+      "repotting_days": 730,
+      "soil": "Легкий воздухопроницаемый субстрат для эпифитных растений с корой; состав уточняйте для конкретного вида."
+    },
+    {
+      "name": "Дипсис · Areca Palm",
+      "species": "Dypsis lutescens",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Хамедорея · Bamboo Palm",
+      "species": "Chamaedorea seifrizii",
+      "plant_type": "Обычное",
+      "lighting": "Полутень",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Хамедорея · Radicalis Palm",
+      "species": "Chamaedorea radicalis",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Цикас · Sago Palm",
+      "species": "Cycas revoluta",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 14,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Хамеропс · European Fan Palm",
+      "species": "Chamaerops humilis",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 1278,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Ховея · Kentia Palm",
+      "species": "Howea forsteriana",
+      "plant_type": "Обычное",
+      "lighting": "Полутень",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Рапис · Lady Palm",
+      "species": "Rhapis excelsa",
+      "plant_type": "Обычное",
+      "lighting": "Полутень",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Равенея · Majesty Palm",
+      "species": "Ravenea rivularis",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 365,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Пальмы",
+      "species": "Chamaedorea elegans",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Хамедорея изящная",
+      "species": "Chamaedorea elegans",
+      "plant_type": "Обычное",
+      "lighting": "Полутень",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Финиковая пальма · Pygmy Date Palm",
+      "species": "Phoenix roebelenii",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Бокарнея — нолина",
+      "species": "Beaucarnea recurvata",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 21,
+      "repotting_days": 1460,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Адениум",
+      "species": "Adenium obesum",
+      "plant_type": "Суккулент",
+      "lighting": "Прямое солнце",
+      "watering_days": 14,
+      "repotting_days": 730,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Эониум",
+      "species": "Aeonium arboreum",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 14,
+      "repotting_days": 913,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Агава",
+      "species": "Agave americana",
+      "plant_type": "Суккулент",
+      "lighting": "Прямое солнце",
+      "watering_days": 14,
+      "repotting_days": 730,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Алоэ вера",
+      "species": "Aloe vera",
+      "plant_type": "Суккулент",
+      "lighting": "Прямое солнце",
+      "watering_days": 21,
+      "repotting_days": 913,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Алоэ (группа)",
+      "species": "Aloe vera",
+      "plant_type": "Суккулент",
+      "lighting": "Прямое солнце",
+      "watering_days": 21,
+      "repotting_days": 913,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Котиледон · Bear's Paw",
+      "species": "Cotyledon tomentosa",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 21,
+      "repotting_days": 913,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Очиток · Burro's Tail",
+      "species": "Sedum morganianum",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 14,
+      "repotting_days": 913,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Толстянка · Dwarf Jade",
+      "species": "Crassula ovata 'Minor'",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 21,
+      "repotting_days": 730,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Толстянки (группа)",
+      "species": "Crassula ovata",
+      "plant_type": "Суккулент",
+      "lighting": "Прямое солнце",
+      "watering_days": 21,
+      "repotting_days": 913,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Эхеверия",
+      "species": "Echeveria elegans",
+      "plant_type": "Суккулент",
+      "lighting": "Прямое солнце",
+      "watering_days": 21,
+      "repotting_days": 913,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Молочай · Pencil Cactus",
+      "species": "Euphorbia tirucalli",
+      "plant_type": "Суккулент",
+      "lighting": "Прямое солнце",
+      "watering_days": 21,
+      "repotting_days": 730,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Молочай · African Milk Tree",
+      "species": "Euphorbia trigona",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Молочаи (группа)",
+      "species": "Euphorbia trigona",
+      "plant_type": "Суккулент",
+      "lighting": "Прямое солнце",
+      "watering_days": 21,
+      "repotting_days": 913,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Гастерия",
+      "species": "Gasteria bicolor",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 14,
+      "repotting_days": 913,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Граптопеталум",
+      "species": "Graptopetalum paraguayense",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 21,
+      "repotting_days": 913,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Граптоверия",
+      "species": "× Graptoveria 'Fred Ives'",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 14,
+      "repotting_days": 730,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Хавортия",
+      "species": "Haworthia cooperi",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 14,
+      "repotting_days": 913,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Толстянка — денежное дерево",
+      "species": "Crassula ovata",
+      "plant_type": "Суккулент",
+      "lighting": "Прямое солнце",
+      "watering_days": 21,
+      "repotting_days": 913,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Каланхоэ · Paddle Plant",
+      "species": "Kalanchoe luciae",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Литопс",
+      "species": "Lithops",
+      "plant_type": "Суккулент",
+      "lighting": "Прямое солнце",
+      "watering_days": 14,
+      "repotting_days": 1460,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Пахифитум",
+      "species": "Pachyphytum oviferum",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 21,
+      "repotting_days": 730,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Портулакария · Elephant Bush",
+      "species": "Portulacaria afra",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Очиток",
+      "species": "Sedum morganianum",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 21,
+      "repotting_days": 913,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Молодило",
+      "species": "Sempervivum tectorum",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 21,
+      "repotting_days": 913,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Крестовник · Senecio",
+      "species": "Curio rowleyanus",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 21,
+      "repotting_days": 913,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Плейоспилос · Split Rock",
+      "species": "Pleiospilos nelii",
+      "plant_type": "Суккулент",
+      "lighting": "Прямое солнце",
+      "watering_days": 14,
+      "repotting_days": 1460,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Крестовник · String of Bananas",
+      "species": "Curio radicans",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 14,
+      "repotting_days": 913,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Крестовник · String of Dolphins",
+      "species": "Curio × peregrinus",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 14,
+      "repotting_days": 913,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Церопегия · String of Hearts",
+      "species": "Ceropegia woodii",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 14,
+      "repotting_days": 913,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Церопегия · String of Needles",
+      "species": "Ceropegia linearis",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 14,
+      "repotting_days": 730,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Крестовник Роули — нить жемчуга",
+      "species": "Curio rowleyanus",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 14,
+      "repotting_days": 913,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Отонна · String of Rubies",
+      "species": "Othonna capensis",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 14,
+      "repotting_days": 730,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Пеперомия · String of Turtles",
+      "species": "Peperomia prostrata",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Алоэ · Black Gem",
+      "species": "Aloe 'Black Gem'",
+      "plant_type": "Суккулент",
+      "lighting": "Прямое солнце",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Эхеверия · Lola",
+      "species": "Echeveria 'Lola'",
+      "plant_type": "Суккулент",
+      "lighting": "Прямое солнце",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Эхеверия · Perle von Nürnberg",
+      "species": "Echeveria 'Perle von Nürnberg'",
+      "plant_type": "Суккулент",
+      "lighting": "Прямое солнце",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Хавортия · Cooperi",
+      "species": "Haworthia cooperi",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Суккуленты",
+      "species": "Echeveria",
+      "plant_type": "Суккулент",
+      "lighting": "Прямое солнце",
+      "watering_days": 21,
+      "repotting_days": 913,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Эхинокактус · Barrel Cactus",
+      "species": "Kroenleinia grusonii",
+      "plant_type": "Суккулент",
+      "lighting": "Прямое солнце",
+      "watering_days": 30,
+      "repotting_days": 1460,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Кактусы",
+      "species": "Kroenleinia",
+      "plant_type": "Суккулент",
+      "lighting": "Прямое солнце",
+      "watering_days": 30,
+      "repotting_days": 1460,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Шлюмбергера — декабрист",
+      "species": "Schlumbergera × buckleyi",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Рыхлый субстрат для лесных кактусов с органической основой, корой и разрыхлителем; хороший отвод лишней воды."
+    },
+    {
+      "name": "Рипсалидопсис — пасхальный кактус",
+      "species": "Rhipsalidopsis gaertneri",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Рыхлый субстрат для лесных кактусов с органической основой, корой и разрыхлителем; хороший отвод лишней воды."
+    },
+    {
+      "name": "Эхинопсис · Easter Lily Cactus",
+      "species": "Echinopsis spp.",
+      "plant_type": "Суккулент",
+      "lighting": "Прямое солнце",
+      "watering_days": 21,
+      "repotting_days": 548,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Эпифиллум · Orchid Cactus",
+      "species": "Epiphyllum spp.",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Рыхлый субстрат для лесных кактусов с органической основой, корой и разрыхлителем; хороший отвод лишней воды."
+    },
+    {
+      "name": "Лесные кактусы",
+      "species": "Schlumbergera",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Рыхлый субстрат для лесных кактусов с органической основой, корой и разрыхлителем; хороший отвод лишней воды."
+    },
+    {
+      "name": "Гимнокалициум · Chin Cactus",
+      "species": "Gymnocalycium mihanovichii",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 21,
+      "repotting_days": 548,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Маммиллярия · Pincushion Cactus",
+      "species": "Mammillaria spp.",
+      "plant_type": "Суккулент",
+      "lighting": "Прямое солнце",
+      "watering_days": 21,
+      "repotting_days": 548,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Маммиллярия · Old Lady Cactus",
+      "species": "Mammillaria hahniana",
+      "plant_type": "Суккулент",
+      "lighting": "Прямое солнце",
+      "watering_days": 30,
+      "repotting_days": 1460,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Опунция · Bunny Ears Cactus",
+      "species": "Opuntia microdasys",
+      "plant_type": "Суккулент",
+      "lighting": "Прямое солнце",
+      "watering_days": 21,
+      "repotting_days": 548,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Пародия · Ball Cactus",
+      "species": "Parodia leninghausii",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 21,
+      "repotting_days": 548,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Опунция · Prickly Pear",
+      "species": "Opuntia ficus-indica",
+      "plant_type": "Суккулент",
+      "lighting": "Прямое солнце",
+      "watering_days": 30,
+      "repotting_days": 1460,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Апорокактус · Rat Tail Cactus",
+      "species": "Aporocactus flagelliformis",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 14,
+      "repotting_days": 913,
+      "soil": "Рыхлый субстрат для лесных кактусов с органической основой, корой и разрыхлителем; хороший отвод лишней воды."
+    },
+    {
+      "name": "Рипсалис",
+      "species": "Rhipsalis baccifera",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Рыхлый субстрат для лесных кактусов с органической основой, корой и разрыхлителем; хороший отвод лишней воды."
+    },
+    {
+      "name": "Карнегия · Saguaro Cactus",
+      "species": "Carnegiea gigantea",
+      "plant_type": "Суккулент",
+      "lighting": "Прямое солнце",
+      "watering_days": 21,
+      "repotting_days": 730,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Астрофитум · Star Cactus",
+      "species": "Astrophytum asterias",
+      "plant_type": "Суккулент",
+      "lighting": "Прямое солнце",
+      "watering_days": 30,
+      "repotting_days": 1460,
+      "soil": "Готовый грунт для кактусов и суккулентов с минеральным разрыхлителем; быстрое просыхание, без застоя воды."
+    },
+    {
+      "name": "Шлюмбергера · Thanksgiving Cactus",
+      "species": "Schlumbergera truncata",
+      "plant_type": "Суккулент",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Рыхлый субстрат для лесных кактусов с органической основой, корой и разрыхлителем; хороший отвод лишней воды."
+    },
+    {
+      "name": "Сенполия — узамбарская фиалка",
+      "species": "Streptocarpus ionanthus",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 365,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Антуриум · Flamingo Flower",
+      "species": "Anthurium andraeanum",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Бегония · Angel Wing",
+      "species": "Begonia coccinea",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Бегония · Ferox",
+      "species": "Begonia ferox",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Бегония · Polka Dot",
+      "species": "Begonia maculata",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Бегония · Rex",
+      "species": "Begonia rex-cultorum",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Эхмея · Bromeliads",
+      "species": "Aechmea fasciata",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Легкий воздухопроницаемый субстрат для эпифитных растений с корой; состав уточняйте для конкретного вида."
+    },
+    {
+      "name": "Гузмания · Bromeliads",
+      "species": "Guzmania lingulata",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Легкий воздухопроницаемый субстрат для эпифитных растений с корой; состав уточняйте для конкретного вида."
+    },
+    {
+      "name": "Неорегелия · Bromeliad",
+      "species": "Neoregelia spp.",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Легкий воздухопроницаемый субстрат для эпифитных растений с корой; состав уточняйте для конкретного вида."
+    },
+    {
+      "name": "Бромелиевые",
+      "species": "Guzmania",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Легкий воздухопроницаемый субстрат для эпифитных растений с корой; состав уточняйте для конкретного вида."
+    },
+    {
+      "name": "Кливия",
+      "species": "Clivia miniata",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Кофейное дерево",
+      "species": "Coffea arabica",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Молочай · Crown of Thorns",
+      "species": "Euphorbia milii",
+      "plant_type": "Обычное",
+      "lighting": "Прямое солнце",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Цикламен",
+      "species": "Cyclamen persicum",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 3,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Цимбидиум",
+      "species": "Cymbidium hybrids",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Специализированный воздухопроницаемый субстрат для данного вида орхидей, обычно на основе коры; обычная плотная земля не подходит."
+    },
+    {
+      "name": "Гардения",
+      "species": "Gardenia jasminoides",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 5,
+      "repotting_days": 913,
+      "soil": "Кислый воздухопроницаемый субстрат для ацидофильных растений; подойдет специальная смесь для гардений / азалий."
+    },
+    {
+      "name": "Гербера · Daisy",
+      "species": "Gerbera jamesonii",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Глоксиния · Gloxinia",
+      "species": "Sinningia speciosa",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 3,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Колумнея · Goldfish Plant",
+      "species": "Columnea gloriosa",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Гибискус · Tropical",
+      "species": "Hibiscus rosa-sinensis",
+      "plant_type": "Обычное",
+      "lighting": "Прямое солнце",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Хойя · Carnosa",
+      "species": "Hoya carnosa",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 14,
+      "repotting_days": 913,
+      "soil": "Легкий воздухопроницаемый субстрат для эпифитных растений с корой; состав уточняйте для конкретного вида."
+    },
+    {
+      "name": "Хойя · Kerrii",
+      "species": "Hoya kerrii",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 14,
+      "repotting_days": 913,
+      "soil": "Легкий воздухопроницаемый субстрат для эпифитных растений с корой; состав уточняйте для конкретного вида."
+    },
+    {
+      "name": "Хойи (группа)",
+      "species": "Hoya carnosa",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 14,
+      "repotting_days": 913,
+      "soil": "Легкий воздухопроницаемый субстрат для эпифитных растений с корой; состав уточняйте для конкретного вида."
+    },
+    {
+      "name": "Иксора",
+      "species": "Ixora coccinea",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 730,
+      "soil": "Кислый воздухопроницаемый субстрат для ацидофильных растений; подойдет специальная смесь для гардений / азалий."
+    },
+    {
+      "name": "Жасмин · Jasmine",
+      "species": "Jasminum polyanthum",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 5,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Каланхоэ",
+      "species": "Kalanchoe blossfeldiana",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 14,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Эсхинантус · Lipstick Plant",
+      "species": "Aeschynanthus radicans",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Мандевилла",
+      "species": "Mandevilla sanderi",
+      "plant_type": "Обычное",
+      "lighting": "Прямое солнце",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Мединилла",
+      "species": "Medinilla magnifica",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Пафиопедилум · Slipper Orchid",
+      "species": "Paphiopedilum maudiae",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 5,
+      "repotting_days": 548,
+      "soil": "Специализированный воздухопроницаемый субстрат для данного вида орхидей, обычно на основе коры; обычная плотная земля не подходит."
+    },
+    {
+      "name": "Спатифиллум — женское счастье",
+      "species": "Spathiphyllum wallisii",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Орхидея фаленопсис",
+      "species": "Phalaenopsis",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Специализированный воздухопроницаемый субстрат для данного вида орхидей, обычно на основе коры; обычная плотная земля не подходит."
+    },
+    {
+      "name": "Молочай · Poinsettia",
+      "species": "Euphorbia pulcherrima",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Стефанотис",
+      "species": "Stephanotis floribunda",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Стрептокарпус · Cape Primrose",
+      "species": "Streptocarpus spp.",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Бегония · Tuberous s",
+      "species": "Begonia × tuberhybrida",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Афеландра · Zebra Plant",
+      "species": "Aphelandra squarrosa",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Калатея · Calathea Freddie",
+      "species": "Goeppertia concinna",
+      "plant_type": "Тропическое",
+      "lighting": "Полутень",
+      "watering_days": 7,
+      "repotting_days": 730,
+      "soil": "Рыхлый влагоемкий субстрат для папоротников / декоративно-лиственных с органической основой и перлитом; не заболачивать."
+    },
+    {
+      "name": "Калатея · Calathea Makoyana",
+      "species": "Goeppertia makoyana",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 5,
+      "repotting_days": 548,
+      "soil": "Рыхлый влагоемкий субстрат для папоротников / декоративно-лиственных с органической основой и перлитом; не заболачивать."
+    },
+    {
+      "name": "Калатея · Calathea Medallion",
+      "species": "Goeppertia roseopicta 'Medallion'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 548,
+      "soil": "Рыхлый влагоемкий субстрат для папоротников / декоративно-лиственных с органической основой и перлитом; не заболачивать."
+    },
+    {
+      "name": "Калатея · Calathea Musaica",
+      "species": "Goeppertia kegeljanii",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 5,
+      "repotting_days": 730,
+      "soil": "Рыхлый влагоемкий субстрат для папоротников / декоративно-лиственных с органической основой и перлитом; не заболачивать."
+    },
+    {
+      "name": "Калатея · Calathea Orbifolia",
+      "species": "Goeppertia orbifolia",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 548,
+      "soil": "Рыхлый влагоемкий субстрат для папоротников / декоративно-лиственных с органической основой и перлитом; не заболачивать."
+    },
+    {
+      "name": "Калатея · Pin-stripe Calathea",
+      "species": "Goeppertia ornata",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 730,
+      "soil": "Рыхлый влагоемкий субстрат для папоротников / декоративно-лиственных с органической основой и перлитом; не заболачивать."
+    },
+    {
+      "name": "Калатея · Calathea Rattlesnake",
+      "species": "Goeppertia insignis",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 548,
+      "soil": "Рыхлый влагоемкий субстрат для папоротников / декоративно-лиственных с органической основой и перлитом; не заболачивать."
+    },
+    {
+      "name": "Калатея · Calathea Roseopicta",
+      "species": "Goeppertia roseopicta",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 730,
+      "soil": "Рыхлый влагоемкий субстрат для папоротников / декоративно-лиственных с органической основой и перлитом; не заболачивать."
+    },
+    {
+      "name": "Калатея · Calathea Vittata",
+      "species": "Goeppertia elliptica 'Vittata'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 730,
+      "soil": "Рыхлый влагоемкий субстрат для папоротников / декоративно-лиственных с органической основой и перлитом; не заболачивать."
+    },
+    {
+      "name": "Калатея · Calathea White Fusion",
+      "species": "Goeppertia lietzei 'White Fusion'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Рыхлый влагоемкий субстрат для папоротников / декоративно-лиственных с органической основой и перлитом; не заболачивать."
+    },
+    {
+      "name": "Калатея · Calathea White Star",
+      "species": "Goeppertia majestica 'Whitestar'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Рыхлый влагоемкий субстрат для папоротников / декоративно-лиственных с органической основой и перлитом; не заболачивать."
+    },
+    {
+      "name": "Калатея · Zebra Calathea",
+      "species": "Goeppertia zebrina",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Рыхлый влагоемкий субстрат для папоротников / декоративно-лиственных с органической основой и перлитом; не заболачивать."
+    },
+    {
+      "name": "Ктенанта",
+      "species": "Ctenanthe burle-marxii",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 5,
+      "repotting_days": 548,
+      "soil": "Рыхлый влагоемкий субстрат для папоротников / декоративно-лиственных с органической основой и перлитом; не заболачивать."
+    },
+    {
+      "name": "Маранта",
+      "species": "Maranta leuconeura",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 548,
+      "soil": "Рыхлый влагоемкий субстрат для папоротников / декоративно-лиственных с органической основой и перлитом; не заболачивать."
+    },
+    {
+      "name": "Марантовые",
+      "species": "Calathea",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 548,
+      "soil": "Рыхлый влагоемкий субстрат для папоротников / декоративно-лиственных с органической основой и перлитом; не заболачивать."
+    },
+    {
+      "name": "Строманта",
+      "species": "Stromanthe thalia 'Triostar'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 5,
+      "repotting_days": 548,
+      "soil": "Рыхлый влагоемкий субстрат для папоротников / декоративно-лиственных с органической основой и перлитом; не заболачивать."
+    },
+    {
+      "name": "Солейролия · Baby's Tears",
+      "species": "Soleirolia soleirolii",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 4,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Циссус · Rex Begonia Vine",
+      "species": "Cissus discolor",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Дисхидия",
+      "species": "Dischidia nummularia",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Легкий воздухопроницаемый субстрат для эпифитных растений с корой; состав уточняйте для конкретного вида."
+    },
+    {
+      "name": "Плющ обыкновенный",
+      "species": "Hedera helix",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Циссус · Grape Ivy",
+      "species": "Cissus rhombifolia",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Хойя · Australis",
+      "species": "Hoya australis",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Легкий воздухопроницаемый субстрат для эпифитных растений с корой; состав уточняйте для конкретного вида."
+    },
+    {
+      "name": "Хойя · Bella",
+      "species": "Hoya lanceolata subsp. bella",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Легкий воздухопроницаемый субстрат для эпифитных растений с корой; состав уточняйте для конкретного вида."
+    },
+    {
+      "name": "Хойя · Callistophylla",
+      "species": "Hoya callistophylla",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 14,
+      "repotting_days": 730,
+      "soil": "Легкий воздухопроницаемый субстрат для эпифитных растений с корой; состав уточняйте для конкретного вида."
+    },
+    {
+      "name": "Хойя · Compacta",
+      "species": "Hoya carnosa 'Compacta'",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Легкий воздухопроницаемый субстрат для эпифитных растений с корой; состав уточняйте для конкретного вида."
+    },
+    {
+      "name": "Хойя · Cumingiana",
+      "species": "Hoya cumingiana",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 14,
+      "repotting_days": 730,
+      "soil": "Легкий воздухопроницаемый субстрат для эпифитных растений с корой; состав уточняйте для конкретного вида."
+    },
+    {
+      "name": "Хойя · Curtisii",
+      "species": "Hoya curtisii",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Легкий воздухопроницаемый субстрат для эпифитных растений с корой; состав уточняйте для конкретного вида."
+    },
+    {
+      "name": "Хойя · Krimson Queen",
+      "species": "Hoya carnosa 'Krimson Queen'",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Легкий воздухопроницаемый субстрат для эпифитных растений с корой; состав уточняйте для конкретного вида."
+    },
+    {
+      "name": "Хойя · Linearis",
+      "species": "Hoya linearis",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Легкий воздухопроницаемый субстрат для эпифитных растений с корой; состав уточняйте для конкретного вида."
+    },
+    {
+      "name": "Хойя · Mathilde",
+      "species": "Hoya mathilde",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Легкий воздухопроницаемый субстрат для эпифитных растений с корой; состав уточняйте для конкретного вида."
+    },
+    {
+      "name": "Хойя · Obovata",
+      "species": "Hoya obovata",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Легкий воздухопроницаемый субстрат для эпифитных растений с корой; состав уточняйте для конкретного вида."
+    },
+    {
+      "name": "Хойя · Pubicalyx",
+      "species": "Hoya pubicalyx",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Легкий воздухопроницаемый субстрат для эпифитных растений с корой; состав уточняйте для конкретного вида."
+    },
+    {
+      "name": "Хойя · Wayetii",
+      "species": "Hoya wayetii",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Легкий воздухопроницаемый субстрат для эпифитных растений с корой; состав уточняйте для конкретного вида."
+    },
+    {
+      "name": "Филодендрон · Brasil",
+      "species": "Philodendron hederaceum 'Brasil'",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Гинура · Purple Passion Plant",
+      "species": "Gynura aurantiaca",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Сциндапсус",
+      "species": "Scindapsus pictus",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Сциндапсус · Satin Pothos",
+      "species": "Scindapsus pictus 'Argyraeus'",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Плектрантус · Swedish Ivy",
+      "species": "Plectranthus verticillatus",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Традесканция",
+      "species": "Tradescantia zebrina",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Традесканция · Nanouk",
+      "species": "Tradescantia 'Nanouk'",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Традесканция · Purple Heart",
+      "species": "Tradescantia pallida",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Лианы и ампельные растения",
+      "species": "Epipremnum aureum",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Рыхлый субстрат для ароидных: органическая основа, кора и перлит; воздухопроницаемый, с хорошим дренажем."
+    },
+    {
+      "name": "Фикус · Altissima",
+      "species": "Ficus altissima",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Фикус · Audrey",
+      "species": "Ficus benghalensis",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Фикус Бенджамина",
+      "species": "Ficus benjamina",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Фикус · Tineke",
+      "species": "Ficus elastica 'Tineke'",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Фикус микрокарпа",
+      "species": "Ficus microcarpa",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Фикус лировидный",
+      "species": "Ficus lyrata",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 14,
+      "repotting_days": 913,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Фикус каучуконосный",
+      "species": "Ficus elastica",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 14,
+      "repotting_days": 913,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Фикус · Burgundy Rubber Plant",
+      "species": "Ficus elastica 'Burgundy'",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Фикус · Ruby Rubber Plant",
+      "species": "Ficus elastica 'Ruby'",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Стрелиция королевская",
+      "species": "Strelitzia reginae",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Стрелиция · White Bird of Paradise",
+      "species": "Strelitzia nicolai",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Бонсай · Bonsai",
+      "species": "Juniperus",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 5,
+      "repotting_days": 913,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Колеус",
+      "species": "Coleus scutellarioides",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 365,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Кордилина",
+      "species": "Cordyline fruticosa",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Аморфофаллус · Corpse Flower",
+      "species": "Amorphophallus titanum",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Кротон · Croton",
+      "species": "Codiaeum variegatum",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Кротон · Croton Mammy",
+      "species": "Codiaeum variegatum 'Mammy'",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Цикас · Cycads",
+      "species": "Cycas revoluta",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 1460,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Фатсия",
+      "species": "Fatsia japonica",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Геогенантус",
+      "species": "Geogenanthus ciliatus",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Геликония",
+      "species": "Heliconia rostrata",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 5,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Кипарис · Lemon Cypress",
+      "species": "Cupressus macrocarpa 'Goldcrest'",
+      "plant_type": "Обычное",
+      "lighting": "Прямое солнце",
+      "watering_days": 7,
+      "repotting_days": 913,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Драцена Сандера — бамбук счастья",
+      "species": "Dracaena sanderiana",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Пахира водная",
+      "species": "Pachira aquatica",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Фиттония",
+      "species": "Fittonia albivenis",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Араукария · Norfolk Island Pine",
+      "species": "Araucaria heterophylla",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Кислица · (Shamrock Plant)",
+      "species": "Oxalis triangularis",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 913,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Кислица · Purple Shamrock",
+      "species": "Oxalis triangularis",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Пеперомия",
+      "species": "Peperomia obtusifolia",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Пеперомия · Emerald Ripple",
+      "species": "Peperomia caperata",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Пеперомия · Baby Rubber Plant",
+      "species": "Peperomia obtusifolia",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Пеперомия · Rosso",
+      "species": "Peperomia caperata 'Rosso'",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Пеперомия · Watermelon",
+      "species": "Peperomia argyreia",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 913,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Пилея",
+      "species": "Pilea peperomioides",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Пилея · Chinese Money Plant",
+      "species": "Pilea peperomioides",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Пилея · Friendship Plant",
+      "species": "Pilea involucrata",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 10,
+      "repotting_days": 548,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Подокарпус · Buddhist Pine",
+      "species": "Podocarpus macrophyllus",
+      "plant_type": "Обычное",
+      "lighting": "Рассеянный свет",
+      "watering_days": 14,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Гипоэстес · Polka Dot Plant",
+      "species": "Hypoestes phyllostachya",
+      "plant_type": "Тропическое",
+      "lighting": "Рассеянный свет",
+      "watering_days": 7,
+      "repotting_days": 365,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    },
+    {
+      "name": "Вельвичия",
+      "species": "Welwitschia mirabilis",
+      "plant_type": "Обычное",
+      "lighting": "Прямое солнце",
+      "watering_days": 21,
+      "repotting_days": 730,
+      "soil": "Качественный рыхлый горшечный грунт для комнатных растений с разрыхлителем; состав подбирают по дренажу и кислотности ниже."
+    }
+  ]
+}
